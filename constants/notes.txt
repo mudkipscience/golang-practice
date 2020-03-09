@@ -7,3 +7,4 @@ String constants:
 Values enclosed between double quotes are string constants.
 String constants are untyped
 Typed string constants can be defined by 'const typedhello string = "Hello World"
+Mixing types 
