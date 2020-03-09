@@ -1,0 +1,9 @@
+The term constant in Go is used to denote fixed values
+Constant variables are declared with const (i.e const a = 55)
+Constant variables cannot be reassigned (like literally every other lang)
+The value of a constant must be known at compile time, because of that something like (const b = math.Sqrt(4) will not work)
+
+String constants:
+Values enclosed between double quotes are string constants.
+String constants are untyped
+Typed string constants can be defined by 'const typedhello string = "Hello World"
