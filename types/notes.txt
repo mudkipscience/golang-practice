@@ -1,0 +1,54 @@
+https://golangbot.com/types/
+
+(learning go has taught me that i need to learn maths)
+
+Unsigned int: Holds large positive value, but no negative values (i.e 0 to 255)
+Signed int: Hold both positive and negative values (i.e 0 to +127, -1 to +128)
+
+int will represent a 32bit or 64bit integer depending on the platform
+
+range: -2147483648 to 2147483647 in 32 bit systems and -9223372036854775808 to 9223372036854775807 in 64 bit systems
+
+Types
+	bool
+	Numeric Types
+		int8, int16, int32, int64, int
+        uint8, uint16, uint32, uint64, uint
+		float32, float64
+		complex64, complex128
+		byte
+		rune
+	string
+
+Signed integers:
+int: represents 32 or 64 bit integers depending on the underlying platform. You should generally be using int to represent integers unless there is a need to use a specific sized integer.
+size: 32 bits in 32 bit systems and 64 bit in 64 bit systems.
+range: -2147483648 to 2147483647 in 32 bit systems and -9223372036854775808 to 9223372036854775807 in 64 bit systems
+
+Unsigned integers:
+uint : represents 32 or 64 bit unsigned integers depending on the underlying platform.
+size : 32 bits in 32 bit systems and 64 bits in 64 bit systems.
+range : 0 to 4294967295 in 32 bit systems and 0 to 18446744073709551615 in 64 bit systems
+
+There's also int8, int16, int32 and int64, which represent 8bit, 16bit, 32bit and 64bit integers respectively
+
+Floating point types:
+Numerical values with a decimal
+float32: 32 bit floating point num 
+float74: 64 bit floating point num 
+
+Complex types:
+Imaginary numbers are when a number is squared and it gives a negative result
+i = -1
+Complex numbers are a combination of real and imaginary numbers
+Go complex types:
+complex64: complex numbers which have float32 real and imaginary parts
+complex128: complex numbers with float64 real and imaginary parts
+function complex: func complex(r, i FloatType) ComplexType  
+
+Type conversion:
+Go does not have automatic type promotion or conversion
+Variables must be converted with a function like int()
+
+
+
