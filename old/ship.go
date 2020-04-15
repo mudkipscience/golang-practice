@@ -1,3 +1,5 @@
+// Made by Terra not me cause im dumb
+
 package main
 
 import "math/rand"
